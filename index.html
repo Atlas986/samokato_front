@@ -10,6 +10,10 @@
     <title>TG front</title>
 </head>
 <body>
-    
+    <script>
+        var WebApp = window.Telegram.WebApp;
+
+        WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`); 
+    </script>
 </body>
 </html>
